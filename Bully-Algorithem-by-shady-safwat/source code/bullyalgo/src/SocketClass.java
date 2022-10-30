@@ -11,7 +11,6 @@ public class SocketClass {
     public static void main(String[] args) throws IOException {
 
         startServer();
-
     }
 
     // client server by creating thread
@@ -41,10 +40,7 @@ public class SocketClass {
 
                         elec.randomTermination();
                     }
-                   
-
-                 
-
+               
             }catch(Exception e){
                 System.out.println(e);
             }
@@ -58,7 +54,7 @@ public class SocketClass {
             public void run() {
                 ServerSocket ss;
                 try {
-                    // setting the port
+                    // setting the port to 60010
                     ss = new ServerSocket(60010);
 
                     Socket s = ss.accept();
