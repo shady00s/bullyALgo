@@ -140,14 +140,6 @@ public class Elections extends Thread {
             workingProcesses.remove(index);
             listenTocoordinator();
         }
-        
-
-
-
-        
-
-        
-        
 
     }
 }
